@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family:Georgia, serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
-
 }
 
 *, *::before, *::after {
@@ -10,7 +9,7 @@ html {
 }
 
 .link-card {
-  background-color: #f0eee8;
+  background-color: #dcd4cd;
   display: inline-block;
   padding: 1rem;
   border-width: 3px;
@@ -21,44 +20,44 @@ html {
 }
 
 .link-card:hover {
-  background-color: #dcd4cd;
+  background-color: #cabdb2;
 }
 
-h2 {
-  font-family: 'Dosis', sans-serif;
+.link-card h2 {
+  font-family: Dosis, sans-serif;
   color: #512200;
   font-size: 1.5rem;
+  margin: 0;
 }
 
 p {
-  color: #785439;
-  font-size: 1.125rem;
+  color: #512200;
 }
 
 dl {
   font-size: .875rem;
-  color: #785439;
+  color: #512200;
   display: inline-block;
-  border-top:2px;
+  border-top: 2px;
   border-top-style: solid;
   border-top-color: #785439;
   border-bottom: 2px;
   border-bottom-style: solid;
-  border-bottom-color:#785439;
+  border-bottom-color: #785439;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin-top: 0;
 }
 
 dd, dt {
   display: inline-block;
   width: 45%;
+  margin: 0;
 }
 
-
-.btn{
-  color: #fff;
-  background-color:#785439;
-  text-decoration: none;
+.btn {
+  color: #f0eee8;
+  background-color: #785439;
   font-size: 1rem;
   padding: .4em .75em .5em;
   margin: 0 0 1rem;

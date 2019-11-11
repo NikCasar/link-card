@@ -1,7 +1,75 @@
 html {
   box-sizing: border-box;
+  font-family:Georgia, serif;
+  line-height: 1.5;
+
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.link-card {
+  background-color: #f0eee8;
+  display: inline-block;
+  padding: 1rem;
+  border-width: 3px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #9a816d;
+  text-decoration: none;
+}
+
+.link-card:hover {
+  background-color: #dcd4cd;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  color: #512200;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #785439;
+  font-size: 1.125rem;
+}
+
+dl {
+  font-size: .875rem;
+  color: #785439;
+  display: inline-block;
+  border-top:2px;
+  border-top-style: solid;
+  border-top-color: #785439;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-color:#785439;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+dd, dt {
+  display: inline-block;
+  width: 45%;
+}
+
+
+.btn{
+  color: #fff;
+  background-color:#785439;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: .4em .75em .5em;
+  margin: 0 0 1rem;
+  border-radius: 8px;
+  border-width: 2px;
+}
+
+.btn-box {
+  text-align: center;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
 }
